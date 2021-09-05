@@ -9,23 +9,47 @@
 /* Begin PBXBuildFile section */
 		2E02AB7E26C43D6500D9FF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02AB7D26C43D6500D9FF24 /* AppDelegate.swift */; };
 		2E02AB8026C43D6500D9FF24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02AB7F26C43D6500D9FF24 /* SceneDelegate.swift */; };
-		2E02AB8226C43D6500D9FF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02AB8126C43D6500D9FF24 /* ViewController.swift */; };
+		2E02AB8226C43D6500D9FF24 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02AB8126C43D6500D9FF24 /* MainViewController.swift */; };
 		2E02AB8526C43D6500D9FF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E02AB8326C43D6500D9FF24 /* Main.storyboard */; };
 		2E02AB8826C43D6500D9FF24 /* SideMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E02AB8626C43D6500D9FF24 /* SideMenu.xcdatamodeld */; };
 		2E02AB8A26C43D6700D9FF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E02AB8926C43D6700D9FF24 /* Assets.xcassets */; };
 		2E02AB8D26C43D6700D9FF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E02AB8B26C43D6700D9FF24 /* LaunchScreen.storyboard */; };
+		2E02AB9C26C443D500D9FF24 /* CatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02AB9B26C443D500D9FF24 /* CatsViewController.swift */; };
+		2E02AB9F26C443E400D9FF24 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02AB9E26C443E400D9FF24 /* StarViewController.swift */; };
+		2E02ABA226C443F400D9FF24 /* AllBreedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02ABA126C443F400D9FF24 /* AllBreedsViewController.swift */; };
+		2E02ABA526C4446B00D9FF24 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02ABA426C4446B00D9FF24 /* SideMenuViewController.swift */; };
+		2E02ABAF26C4481800D9FF24 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02ABAD26C4481800D9FF24 /* SideMenuCell.swift */; };
+		2E02ABB026C4481800D9FF24 /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E02ABAE26C4481800D9FF24 /* SideMenuCell.xib */; };
+		2E02ABB326C454D100D9FF24 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02ABB226C454D100D9FF24 /* SideMenuModel.swift */; };
+		2E60B56526C783600087191B /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60B56426C783600087191B /* WeatherViewController.swift */; };
+		2E60B56826C783720087191B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60B56726C783720087191B /* NewsViewController.swift */; };
+		2E65838826E4983A004DDC65 /* MainViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65838726E49839004DDC65 /* MainViewController+Extension.swift */; };
+		2E65838B26E4996D004DDC65 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65838A26E4996D004DDC65 /* UIViewControllerExtension.swift */; };
+		2E65838E26E49A6A004DDC65 /* SideMenuViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65838D26E49A6A004DDC65 /* SideMenuViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E02AB7A26C43D6500D9FF24 /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E02AB7D26C43D6500D9FF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E02AB7F26C43D6500D9FF24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E02AB8126C43D6500D9FF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E02AB8126C43D6500D9FF24 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2E02AB8426C43D6500D9FF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E02AB8726C43D6500D9FF24 /* SideMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SideMenu.xcdatamodel; sourceTree = "<group>"; };
 		2E02AB8926C43D6700D9FF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E02AB8C26C43D6700D9FF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E02AB8E26C43D6700D9FF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E02AB9B26C443D500D9FF24 /* CatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewController.swift; sourceTree = "<group>"; };
+		2E02AB9E26C443E400D9FF24 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		2E02ABA126C443F400D9FF24 /* AllBreedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBreedsViewController.swift; sourceTree = "<group>"; };
+		2E02ABA426C4446B00D9FF24 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		2E02ABAD26C4481800D9FF24 /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		2E02ABAE26C4481800D9FF24 /* SideMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
+		2E02ABB226C454D100D9FF24 /* SideMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		2E60B56426C783600087191B /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		2E60B56726C783720087191B /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		2E65838726E49839004DDC65 /* MainViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+Extension.swift"; sourceTree = "<group>"; };
+		2E65838A26E4996D004DDC65 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		2E65838D26E49A6A004DDC65 /* SideMenuViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +82,76 @@
 		2E02AB7C26C43D6500D9FF24 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				2E02AB7D26C43D6500D9FF24 /* AppDelegate.swift */,
-				2E02AB7F26C43D6500D9FF24 /* SceneDelegate.swift */,
-				2E02AB8126C43D6500D9FF24 /* ViewController.swift */,
-				2E02AB8326C43D6500D9FF24 /* Main.storyboard */,
-				2E02AB8926C43D6700D9FF24 /* Assets.xcassets */,
-				2E02AB8B26C43D6700D9FF24 /* LaunchScreen.storyboard */,
 				2E02AB8E26C43D6700D9FF24 /* Info.plist */,
-				2E02AB8626C43D6500D9FF24 /* SideMenu.xcdatamodeld */,
+				2E65838526E49764004DDC65 /* Model */,
+				2E02AB9826C43D8D00D9FF24 /* View */,
+				2E02AB9726C43D8A00D9FF24 /* Controller */,
+				2E02AB9526C43D8200D9FF24 /* App */,
 			);
 			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		2E02AB9526C43D8200D9FF24 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2E02AB8326C43D6500D9FF24 /* Main.storyboard */,
+				2E02AB8926C43D6700D9FF24 /* Assets.xcassets */,
+				2E02AB7D26C43D6500D9FF24 /* AppDelegate.swift */,
+				2E02AB7F26C43D6500D9FF24 /* SceneDelegate.swift */,
+				2E02AB8626C43D6500D9FF24 /* SideMenu.xcdatamodeld */,
+				2E02AB8B26C43D6700D9FF24 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2E02AB9626C43D8600D9FF24 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2E02ABAD26C4481800D9FF24 /* SideMenuCell.swift */,
+				2E02ABAE26C4481800D9FF24 /* SideMenuCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2E02AB9726C43D8A00D9FF24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E02AB8126C43D6500D9FF24 /* MainViewController.swift */,
+				2E02ABA426C4446B00D9FF24 /* SideMenuViewController.swift */,
+				2E02AB9B26C443D500D9FF24 /* CatsViewController.swift */,
+				2E02AB9E26C443E400D9FF24 /* StarViewController.swift */,
+				2E02ABA126C443F400D9FF24 /* AllBreedsViewController.swift */,
+				2E60B56426C783600087191B /* WeatherViewController.swift */,
+				2E60B56726C783720087191B /* NewsViewController.swift */,
+				2E65838626E497D4004DDC65 /* Extensions */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E02AB9826C43D8D00D9FF24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E02AB9626C43D8600D9FF24 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E65838526E49764004DDC65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E02ABB226C454D100D9FF24 /* SideMenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E65838626E497D4004DDC65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E65838726E49839004DDC65 /* MainViewController+Extension.swift */,
+				2E65838D26E49A6A004DDC65 /* SideMenuViewControllerExtension.swift */,
+				2E65838A26E4996D004DDC65 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +214,7 @@
 				2E02AB8D26C43D6700D9FF24 /* LaunchScreen.storyboard in Resources */,
 				2E02AB8A26C43D6700D9FF24 /* Assets.xcassets in Resources */,
 				2E02AB8526C43D6500D9FF24 /* Main.storyboard in Resources */,
+				2E02ABB026C4481800D9FF24 /* SideMenuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +225,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E02AB8226C43D6500D9FF24 /* ViewController.swift in Sources */,
+				2E02ABA526C4446B00D9FF24 /* SideMenuViewController.swift in Sources */,
+				2E02ABA226C443F400D9FF24 /* AllBreedsViewController.swift in Sources */,
+				2E02AB8226C43D6500D9FF24 /* MainViewController.swift in Sources */,
+				2E60B56826C783720087191B /* NewsViewController.swift in Sources */,
+				2E02AB9C26C443D500D9FF24 /* CatsViewController.swift in Sources */,
 				2E02AB7E26C43D6500D9FF24 /* AppDelegate.swift in Sources */,
+				2E02ABAF26C4481800D9FF24 /* SideMenuCell.swift in Sources */,
+				2E65838E26E49A6A004DDC65 /* SideMenuViewControllerExtension.swift in Sources */,
 				2E02AB8026C43D6500D9FF24 /* SceneDelegate.swift in Sources */,
+				2E02AB9F26C443E400D9FF24 /* StarViewController.swift in Sources */,
 				2E02AB8826C43D6500D9FF24 /* SideMenu.xcdatamodeld in Sources */,
+				2E02ABB326C454D100D9FF24 /* SideMenuModel.swift in Sources */,
+				2E60B56526C783600087191B /* WeatherViewController.swift in Sources */,
+				2E65838B26E4996D004DDC65 /* UIViewControllerExtension.swift in Sources */,
+				2E65838826E4983A004DDC65 /* MainViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

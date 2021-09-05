@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StarViewController.swift
 //  SideMenu
 //
 //  Created by Анастасия Ларина on 11.08.2021.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class StarViewController: UIViewController {
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      
+        navigationController?.navigationBar.tintColor = .black
     }
-
-
 }
-
